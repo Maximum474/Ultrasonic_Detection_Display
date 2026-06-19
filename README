@@ -1,0 +1,17 @@
+I used an Arduino Mega 2560 Microcontroller Board
+
+Because of this you must change the code in three seperate files 
+to suit not only your microcontroller board but also the device you are programing on
+The three files are:
+1. ultrasonic.c 
+2. lcd.c
+3. makefile
+
+For the first and second file the DDR and ports will not work 
+if you are on a different board or different wiring.
+
+For the makefile a multiple things will be wrong because your computer will be different
+then mine and I still do not understand this file either, you may need to use an AI to figure it out
+
+And to run the code you must type into the terminal within the folder/directory 
+that these files are in "make flash" which hopefully should compile and run the code.

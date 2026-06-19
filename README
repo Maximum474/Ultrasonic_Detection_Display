@@ -1,6 +1,8 @@
 I used an Arduino Mega 2560 Microcontroller Board
+Along with an HC-SR04 ultrasonic sensor and
+A LCD1602 Module screen
 
-Because of this you must change the code in three seperate files 
+If you are only using a different micro controller you must change the code in three seperate files 
 to suit not only your microcontroller board but also the device you are programing on
 The three files are:
 1. ultrasonic.c 
@@ -15,3 +17,5 @@ then mine and I still do not understand this file either, you may need to use an
 
 And to run the code you must type into the terminal within the folder/directory 
 that these files are in "make flash" which hopefully should compile and run the code.
+
+You will likely have to change the code completely if you are using different parts then me
